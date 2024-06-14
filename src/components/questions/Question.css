@@ -1,0 +1,12 @@
+.chevron{
+    height: 42px !important;
+    width: 42px !important;
+    border: 1px solid #242424;
+    border-radius: 50%;
+    padding: 7.5px;
+    font-size: 17px;
+    margin-right: 10px;
+}
+AccordionButton{
+    margin-bottom: 40px;
+}

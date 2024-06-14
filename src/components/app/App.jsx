@@ -15,6 +15,8 @@ import child from '../../images/child.png';
 import family from '../../images/family.png';
 import girls from '../../images/girls.png';
 import HelloFreshPics from '../hellofreshpics/HelloFreshPics';
+import Plans from '../plans/Plans';
+import Questions from '../questions/Questions';
 
 function App() {
   const sliderClick = (slider) => {
@@ -56,6 +58,8 @@ function App() {
       <Box />
       <Food slides={slides} />
       <HelloFreshPics helloFreshPics={helloFreshPics} />
+      <Plans />
+      <Questions />
     </>
   )
 }
