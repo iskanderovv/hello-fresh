@@ -1,0 +1,115 @@
+#main-slider-container {
+    width: 90%;
+    height: 315px;
+}
+
+#slider {
+    width: 100%;
+    height: 100%;
+    white-space: nowrap;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+
+#slider::-webkit-scrollbar {
+    display: none;
+}
+
+#main-slider-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.slider-card {
+    width: 262px;
+    height: 315px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.slider-card-image {
+    width: 262px;
+    height: 315px;
+    border-radius: 5px;
+}
+
+.shadow-slider {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 45%, #000000 100%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px 12px;
+}
+
+
+.slider-card-title {
+    font-family: "Inter", sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.30000001192092896px;
+    text-align: left;
+    color: white;
+}
+
+.slider-card-description {
+    padding: 1px 7px;
+    margin-top: 8px;
+    max-width: 196px;
+    font-family: 'Verdana', sans-serif;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.sliderr-card-description-0,
+.sliderr-card-description-3,
+.sliderr-card-description-6 {
+    background: #FFCF70;
+    color: #000000;
+}
+
+.sliderr-card-description-1,
+.sliderr-card-description-4,
+.sliderr-card-description-7 {
+    background: #476B2D;
+    color: white;
+}
+
+.sliderr-card-description-2,
+.sliderr-card-description-5,
+.sliderr-card-description-8 {
+    background: #37938A;
+    color: white;
+}
+
+.slider-icon.left,
+.slider-icon.right {
+    background: white;
+    border-radius: 100%;
+    position: absolute;
+    opacity: 0.5;
+    box-shadow: 2px 2px 2px 2px rgb(0 0 0 / 12%);
+    cursor: pointer;
+}
+
+.slider-icon.left {
+    left: 0;
+}
+
+.slider-icon.right {
+    right: 0;
+}
+
+.slider-icon.left:hover,
+.slider-icon.right:hover {
+    opacity: 1;
+}
