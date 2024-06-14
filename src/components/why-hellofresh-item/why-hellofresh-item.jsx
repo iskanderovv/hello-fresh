@@ -1,5 +1,4 @@
 import React from 'react';
-import chick from '../../images/chicken.svg'
 import { Info, Subtitle } from '../style';
 
 const WhyHelloFreshItem = ({img, title, info}) => {
